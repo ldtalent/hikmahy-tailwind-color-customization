@@ -1,7 +1,14 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontSize:{
+        '4xl' : '2.5rem'
+      },
+      maxWidth:{
+        '4xl': '58rem'
+      }
+    },
     colors : {
       'bright-orange': '#e38826', 
       'dark-cyan': '#006970',
