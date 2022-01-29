@@ -19,8 +19,8 @@ const Cards = () => {
   const [icons, setIcons] = useState([]);
 
   return(
-    <div className="cards-wrapper">
-        <ul className="mt-7">
+    <div className="cards-wrapper md:flex md:flex-wrap md:flex-1">
+        <ul className="mt-7 md:flex md:justify-center lg:justify-start md:flex-wrap md:content-center md:mt-0">
             {datas.map((data, index)=>{
               const color =  colors[index]
               const icon = icons[index]
