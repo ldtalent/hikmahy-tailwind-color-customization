@@ -9,6 +9,10 @@ module.exports = {
       width:{
         '68': '17rem'
       },
+      maxWidth: {
+        'xl': '33rem',
+        '4xl': "50rem"
+      },
       fontSize:{
         '4xl' : '2.5rem'
       },
