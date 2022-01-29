@@ -1,7 +1,18 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        '50': '12.5rem',
+        '62' : '15.5rem'
+      },
+      width:{
+        '68': '17rem'
+      },
+      fontSize:{
+        '4xl' : '2.5rem'
+      },
+    },
     colors : {
       'violet': '#674baf',
       'red': '#ff5c7c',
