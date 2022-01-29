@@ -4,7 +4,7 @@ import ellipsis from '../assets/icon-ellipsis.svg'
 const CardItem = ({data, color, icon}) => {
   
   return (
-  <li className={"w-full rounded-lg bg-" + color + ' mb-5 shadow-md md:w-60 h-40 md:h-62 md:m-4 lg:m-3'}>
+  <li className={"w-full rounded-lg " + color + ' mb-5 shadow-md md:w-60 h-40 md:h-62 md:m-4 lg:m-3'}>
     <div className="icon w-20 mr-4 h-9 md:h-12 ml-auto overflow-hidden">
       <img className='w-full h-20 relative -top-2' src={icon} alt="icon" />
     </div>

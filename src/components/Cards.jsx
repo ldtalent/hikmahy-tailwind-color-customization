@@ -11,7 +11,7 @@ import careIcon from '../assets/icon-self-care.svg'
 
 const Cards = () => {
   useEffect(() => {
-    setColors(['orange', 'blue', 'red', 'green', 'purple', 'yellow', ])
+    setColors(['bg-orange', 'bg-blue', 'bg-red', 'bg-green', 'bg-purple', 'bg-yellow', ])
     setIcons([workIcon, playIcon, studyIcon, exerciseIcon, socialIcon, careIcon])
   }, []);
 
@@ -19,7 +19,7 @@ const Cards = () => {
   const [icons, setIcons] = useState([]);
 
   return(
-    <div className="cards-wrapper md:flex md:flex-wrap md:flex-1">
+    <div className="cards-wrapper md:flex md:flex-wrap md:flex-1 lg:max-w-xl xl:max-w-4xl">
         <ul className="mt-7 md:flex md:justify-center lg:justify-start md:flex-wrap md:content-center md:mt-0">
             {datas.map((data, index)=>{
               const color =  colors[index]
